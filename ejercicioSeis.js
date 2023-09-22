@@ -35,7 +35,7 @@ const codigosAleatorios = ['cbr','itr','lñp','cbr','poi','qwe','itr','aaa','poi
 const resultado = clasificarEdad(edadesAleatorias,codigosAleatorios)
 
 console.log(`La mayor edad es ${resultado.mayorEdad}, se repite ${resultado.repiteEdad} veces.`)
-console.log(`Conteo de edades`)
+console.log(`Conteo de edades:`)
 for (const edad in resultado.edadesContadas){
     console.log(`${edad}: ${resultado.edadesContadas[edad]} veces.`)
 }
